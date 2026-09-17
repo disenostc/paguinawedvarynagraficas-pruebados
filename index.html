@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varyna Gráficas C.A. | Talonarios, Sellos e Impresiones</title>
+    <meta name="description" content="Imprenta autorizada especializada en talonarios de facturación fiscal y legal, recibos, récipes médicos, sellos automáticos y tarjetas de presentación." />
+    <meta property="og:title" content="Varyna Gráficas C.A. | Talonarios, Sellos e Impresiones" />
+    <meta property="og:description" content="Imprenta autorizada especializada en talonarios de facturación fiscal y legal, recibos, récipes médicos, sellos automáticos y tarjetas de presentación." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch ? window.fetch.bind(window) : null;
+          var activeFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return activeFetch;
+            },
+            set: function(fn) {
+              activeFetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          console.warn('Fetch patch caught:', e);
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased font-sans selection:bg-amber-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

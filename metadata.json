@@ -1,0 +1,6 @@
+{
+  "name": "Varyna Gráficas C.A.",
+  "description": "Tienda en línea oficial de Varyna Gráficas C.A.: talonarios fiscales y legales, recibos, récipes médicos, sellos automáticos y tarjetas de presentación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
